@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.logo{
+    width: 24px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.content-header{
+    display: flex;
+    position: relative;
+    justify-content:flex-start;
+}
+
+.inicio{
+    height: 55px;
+    background-color: black;
+    color: white;
+    padding: 0px 16px;
+    border: 1px solid black;
+    border-radius: 34px;
+    align-items: center;
+    display: flex;
+}
+
+.hoy{
+    padding: 0px 16px;
+}
+
+.flecha{
+    padding: 0px 16px;
+}
+
+input{
+    width: 75vw;
+    height: 45px;
+    display: flex;
+    position: relative;
+    top: 5px;
+    border-radius: 50px;
+    padding: 0px 0px 0px 20px;
+    background-color: #d5d5d5;
+    border: 0px;
+}
+
+.notifications{
+    width: 35px;
+    display: flex;
+    position: absolute;
+    top: 10px;
+    padding-left: 30px;
+}
+
+.msj{
+    width: 35px;
+    display: flex;
+    position: absolute;
+    padding-left: 90px;
+    top: 7px;
+}
+
+.perfil{
+    width: 20px;
+    height: 30px;
+    border-radius: 150px;
+    display: flex;
+    position: absolute;
+    top: 10px;
+    padding-left: 150px;
+}
+.content-main{
+    display: grid;
+    max-width: 50vw;
+    padding: 50px;
+    
+
+    grid-template-columns: repeat(7, 260px);
+    
+    grid-gap: 15px;
+
+}
+.content-main img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+/*Desde este punto se me complico el ordenar de forma adecuada*/
+.img1{
+    grid-row: 1/2;
+}
+.img2{
+    grid-column: 4/2;
+}
+
+.img14{
+    grid-column: 4/3;
+}
+.img15{
+    grid-row: 3/3;
+}
+
